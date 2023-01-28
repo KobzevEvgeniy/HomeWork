@@ -1,0 +1,29 @@
+﻿//напишите программу, которая на вход принимает число, и показывает день недели//
+//(число умножемое на себя//
+Console.Clear();
+Console.Write("Введите номер дня: ");
+int number= int.Parse(Console.ReadLine());
+if(number==1){
+Console.WriteLine("понедельник");
+}
+if(number==2){
+Console.WriteLine("вторник");
+}
+if(number==3){
+Console.WriteLine("среда");
+}
+if(number==4){
+Console.WriteLine("четверг");
+}
+if(number==5){
+Console.WriteLine("пятница");
+}
+if(number==6){
+Console.WriteLine("суббота");
+}
+if(number==7){
+Console.WriteLine("воскресенье");
+}
+else{
+Console.WriteLine("Введите число от 1 до 7");    
+}
